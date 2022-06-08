@@ -9,6 +9,7 @@
     "string": "nodemon ./js/string.js",
     "function": "nodemon ./js/function.js",
     "if": "nodemon ./js/if.js",
+    "praktika": "nodemon ./js/praktika.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
