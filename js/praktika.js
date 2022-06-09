@@ -58,3 +58,43 @@ if (a > c) {
 } else {
     console.log('Bandykite dar karta');
 }
+
+const skaiciai = [15, 55, 31, 7, 6]
+const seka = `${skaiciai[0]} - ${skaiciai[1]} + ${skaiciai[2]} - ${skaiciai[3]} + ${skaiciai[4]}`;
+console.log(seka);
+
+const zodziai = ['arabas', ' buvo', ' balvonas'];
+console.log(`${zodziai[0]},${zodziai[1]},${zodziai[2]}`);
+console.log(zodziai.toString());
+
+let sk = 0;
+for (let i = 0; i <= 4; i++) {
+    sk += i;
+}
+console.log(sk);
+
+let didesnisSkaicius = 0;
+for (let i = 574; i <= 815; i++) {
+    didesnisSkaicius +=i;
+}
+console.log(didesnisSkaicius);
+let didSkaicius = 0;
+for (let i = -50; i <= 50; i++) {
+    didSkaicius +=i;
+}
+console.log(didSkaicius);
+
+
+const abcd = 'abcdef';
+let dcba = '';
+for (let i = abcd.length -1; i >= 0; i--) {
+    dcba += abcd[i];
+}
+console.log(dcba);
+
+const zodis = 'voratinklis';
+let naujasZodis = '';
+for (let i = zodis.length -1; i >= 0; i--) {
+    naujasZodis += zodis[i];
+}
+console.log(naujasZodis);
