@@ -63,9 +63,9 @@ const skaiciai = [15, 55, 31, 7, 6]
 const seka = `${skaiciai[0]} - ${skaiciai[1]} + ${skaiciai[2]} - ${skaiciai[3]} + ${skaiciai[4]}`;
 console.log(seka);
 
-const zodziai = ['arabas', ' buvo', ' balvonas'];
-console.log(`${zodziai[0]},${zodziai[1]},${zodziai[2]}`);
-console.log(zodziai.toString());
+const zodziai = ['arabas', 'buvo', 'balvonas'];
+console.log(`${zodziai[0]}, ${zodziai[1]}, ${zodziai[2]}`);
+console.log(zodziai.join(', '));
 
 let sk = 0;
 for (let i = 0; i <= 4; i++) {
@@ -98,3 +98,13 @@ for (let i = zodis.length -1; i >= 0; i--) {
     naujasZodis += zodis[i];
 }
 console.log(naujasZodis);
+
+function multiply(num1, num2) {
+    console.log(num1, num2);
+    console.log(num1 * num2);
+}
+
+const sk1 = 5;
+const sk2 = 8;
+const daug = multiply(sk1, sk2);
+console.log(daug);
