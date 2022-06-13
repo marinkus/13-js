@@ -14,6 +14,7 @@
     "for": "nodemon ./js/for.js",
     "praktika": "nodemon ./js/praktika.js",
     "arrow": "nodemon ./js/arrow.js",
+    "spread": "nodemon ./js/spread.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
