@@ -17,6 +17,7 @@
     "spread": "nodemon ./js/spread.js",
     "switch": "nodemon ./js/switch.js",
     "other-loops": "nodemon ./js/other-loops.js",
+    "string-array": "nodemon ./js/string-array.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
