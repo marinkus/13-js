@@ -87,3 +87,18 @@ const difReduce20 = marks.reduce((total, mark) => total - mark, -20);
 console.log(difReduce);
 console.log(difReduce20);
 
+// sort
+
+console.log('sort---------');
+const numList = [10, 2, 8, 6, 4, 6, 1, 7, 23, 17];
+const minMaxMarks = [...numList].sort((a, b) => a - b);
+
+console.log(numList);
+console.log(minMaxMarks);
+
+const stringList = ['a', 'b', 'd', 'as', 'db'];
+const minMaxStrings = [...stringList].sort();
+
+console.log(stringList);
+console.log(minMaxStrings);
+
