@@ -64,3 +64,4 @@ if (graza > 0) {
     console.log(`Graza: ${graza}`);
     console.log(`Duotos kupiuros ${hand}`);
 }
+
