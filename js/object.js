@@ -27,6 +27,10 @@ const pn = people[1]['name'];
 const pa = people[1]['age'];
 const pm = people[1]['isMarried'];
 
+const pn2 = people[1].name;
+const pa2 = people[1].age;
+const pm2 = people[1].isMarried;
+
 console.log(pn);
 console.log(pa);
 console.log(pm);
@@ -63,3 +67,12 @@ console.log(respHumans);
 for (const human of respHumans) {
     console.log(human['name'])
 }
+
+
+const respHumans2 = students[0].responsibleHumans;
+console.log(respHumans2);
+for (const human of respHumans2) {
+    console.log(human.name)
+}
+
+console.log(students[0].responsibleHumans[0].address.street);
