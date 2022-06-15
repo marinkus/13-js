@@ -47,7 +47,7 @@ const money = [5, 10, 20, 50, 100, 5, 10, 20];
 const minTarget = 80;
 const hand = [];
 let handTotal = 0;
-
+console.log('hand push----');
 for (let i = 0; i < money.length; i++) {
     const value = money[i];
     handTotal += value;

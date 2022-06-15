@@ -108,3 +108,4 @@ const sk1 = 5;
 const sk2 = 8;
 const daug = multiply(sk1, sk2);
 console.log(daug);
+
