@@ -22,6 +22,7 @@
     "letterCount": "nodemon ./js/letterCount.js",
     "other-loops": "nodemon ./js/other-loops.js",
     "string-array": "nodemon ./js/string-array.js",
+    "number-parsing": "nodemon ./js/number-parsing.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

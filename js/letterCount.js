@@ -29,3 +29,8 @@ function wordCount(str) {
 }
 
 console.log(wordCount(bigText));
+
+const dic = wordCount(bigText);
+for (const key in dic) {
+    console.log(key, '->', dic[key])
+}
