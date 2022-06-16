@@ -20,6 +20,7 @@
     "object": "nodemon ./js/object.js",
     "math-as-array": "nodemon ./js/math-as-array.js",
     "math-as-object": "nodemon ./js/math-as-object.js",
+    "textCount": "nodemon ./js/textCount.js",
     "letterCount": "nodemon ./js/letterCount.js",
     "other-loops": "nodemon ./js/other-loops.js",
     "string-array": "nodemon ./js/string-array.js",
