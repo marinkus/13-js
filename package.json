@@ -9,6 +9,7 @@
     "string": "nodemon ./js/string.js",
     "function": "nodemon ./js/function.js",
     "if": "nodemon ./js/if.js",
+    "if-values": "nodemon ./js/if-values.js",
     "ternary": "nodemon ./js/ternary.js",
     "array": "nodemon ./js/array.js",
     "for": "nodemon ./js/for.js",
