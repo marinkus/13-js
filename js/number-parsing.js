@@ -14,3 +14,5 @@ console.log(initialASize);
 
 const ats = suma(n1, n2);
 console.log(ats)
+
+module.exports = suma;
