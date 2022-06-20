@@ -8,6 +8,7 @@
     "number": "nodemon ./js/number.js",
     "string": "nodemon ./js/string.js",
     "function": "nodemon ./js/function.js",
+    "concat": "nodemon ./js/concat.js",
     "if": "nodemon ./js/if.js",
     "if-values": "nodemon ./js/if-values.js",
     "ternary": "nodemon ./js/ternary.js",
@@ -25,6 +26,8 @@
     "other-loops": "nodemon ./js/other-loops.js",
     "string-array": "nodemon ./js/string-array.js",
     "number-parsing": "nodemon ./js/number-parsing.js",
+    "cw-stats": "nodemon ./js/cw-stats.js",
+    "set": "nodemon ./js/set.js",
     "numberImport": "nodemon ./numberImport.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
