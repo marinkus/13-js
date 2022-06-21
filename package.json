@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "nodemon",
     "number": "nodemon ./js/number.js",
+    "numCount": "nodemon ./js/numCount.js",
+    "pairCount": "nodemon ./js/pairCount.js",
     "random": "nodemon ./js/random.js",
     "string": "nodemon ./js/string.js",
     "function": "nodemon ./js/function.js",
