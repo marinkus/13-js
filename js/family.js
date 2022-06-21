@@ -4,29 +4,29 @@ console.clear();
 const family = [
     {
         name: 'Petras',
-        age: '99',
+        age: 99,
         children: [
             {
             name: 'Rimas',
-            age: '25',
+            age: 125,
         },
         {
             name: 'Maryte',
-            age: '66',
+            age: 66,
         },
         ],
     },
     {
         name: 'Rita',
-        age: '87',
+        age: 120,
         children: [
             {
                 name: 'Rimagardas',
-                age: '140',
+                age: 140,
             },
             {
                 name: 'Ramas',
-                age: '21',
+                age: 21,
                 children: [],
             },
         ],
@@ -37,7 +37,7 @@ function oldest(list) {
     let age = 0;
     for (const person of list) {
         if (person.age > age) {
-            age = person.age
+            age = person.age;
         }
         if (person.children && person.children.length > 0) {
             const oldestChild = oldest(person.children);
@@ -45,8 +45,8 @@ function oldest(list) {
                 age = oldestChild
             }
         }
-        return age
     }
+    return age
 }
 
 console.log(oldest(family)); //Rimagardas is 140 years old
