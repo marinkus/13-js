@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "nodemon",
     "number": "nodemon ./js/number.js",
+    "family": "nodemon ./js/family.js",
     "numCount": "nodemon ./js/numCount.js",
+    "maxInList": "nodemon ./js/maxInList.js",
     "pairCount": "nodemon ./js/pairCount.js",
     "random": "nodemon ./js/random.js",
     "string": "nodemon ./js/string.js",
