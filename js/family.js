@@ -43,13 +43,16 @@ function oldest(list) {
         }
         if (person.children && person.children.length > 0) {
             const oldestChild = oldest(person.children);
-            if (oldestChild > age) {
-                age = oldestChild;
-                name = person.children.name
+            const parts = oldestChild.split(' ');
+            const childName = parts[0];
+            const childAge = +parts[2];
+            if (childAge > age) {
+                age = childAge;
+                name = childName;
             }
         }
     }
-    return `${name} is ${age} years old`
+    return `${name} is ${age} years old`;
 }
 
 console.log(oldest(family)); //Rimagardas is 140 years old
