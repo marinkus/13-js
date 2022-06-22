@@ -20,6 +20,7 @@
     "ternary": "nodemon ./js/ternary.js",
     "array": "nodemon ./js/array.js",
     "for": "nodemon ./js/for.js",
+    "Taxi": "nodemon ./js/Taxi.js",
     "praktika": "nodemon ./js/praktika.js",
     "arrow": "nodemon ./js/arrow.js",
     "spread": "nodemon ./js/spread.js",
