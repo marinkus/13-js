@@ -35,18 +35,21 @@ const family = [
 
 function oldest(list) {
     let age = 0;
+    let name = '';
     for (const person of list) {
         if (person.age > age) {
             age = person.age;
+            name = person.name;
         }
         if (person.children && person.children.length > 0) {
             const oldestChild = oldest(person.children);
             if (oldestChild > age) {
-                age = oldestChild
+                age = oldestChild;
+                name = person.children.name
             }
         }
     }
-    return age
+    return `${name} is ${age} years old`
 }
 
 console.log(oldest(family)); //Rimagardas is 140 years old
